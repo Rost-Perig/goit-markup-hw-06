@@ -54,53 +54,6 @@
             </div>        
         </section>
 
-        <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-                <button type="button" class="modal-close" data-modal-close>
-                    <svg class="m-close-icon" width="18px" height="18px">
-                        <use href="./images/icons.svg#close-m-icon"></use>
-                    </svg>
-                </button>
-                <form class="js-speaker-form modal-form">
-                    <h3 class="m-form-title">Оставьте свои данные, мы вам перезвоним</h3>
-                    <label class="form-field">
-                        <input type="text" name="username" class="m-form-input" minlength="3" required/>
-                        <span class="m-form-label">Имя</span>
-                        <svg class="form-icon">
-                            <use href="./images/icons.svg#form-name-icon"></use>
-                        </svg>
-                    </label>            
-                    <label class="form-field">
-                        <input type="tel" name="user-tel" class="m-form-input" minlength="10" required/>
-                        <span class="m-form-label">Телефон</span>
-                        <svg class="form-icon">
-                            <use href="./images/icons.svg#form-phone-icon"></use>
-                        </svg>
-                    </label>    
-                    <label class="form-field">
-                        <input type="email" name="user-email" class="m-form-input" required/>
-                        <span class="m-form-label">Почта</span>
-                        <svg class="form-icon">
-                            <use href="./images/icons.svg#form-mail-icon"></use>
-                        </svg>
-                    </label>                  
-                    <label class="form-field comment">
-                        <textarea name="comments" rows="6" placeholder="Введите текст" class="m-form-input comment"></textarea>
-                        <span class="m-form-label">Комментарий</span>
-                    </label>
-                    <label class="form-field-check">
-                        <input type="checkbox" name="user-agreement" class="m-form-check" required/>
-                        <svg class="form-check-icon">
-                            <use href="./images/icons.svg#check-icon"></use>
-                        </svg>
-                        <span class="m-form-label-check">Соглашаюсь с рассылкой и принимаю&ensp;</span>
-                        <a href=" " class="agreement-linc">Условия договора</a>
-                    </label> 
-                    <button type="submit" class="submit-form-button">Отправить</button>
-                </form>
-            </div>
-        </div>
-
         <!-- Особенности-feature- -->
         <section class="section-feature">
             <div class="container">
@@ -471,6 +424,52 @@
         </div>
         
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-close" data-modal-close>
+                <svg class="m-close-icon" width="18px" height="18px">
+                    <use href="./images/icons.svg#close-m-icon"></use>
+                </svg>
+            </button>
+            <form class="js-speaker-form modal-form">
+                <h3 class="m-form-title">Оставьте свои данные, мы вам перезвоним</h3>
+                <label class="form-field">
+                    <input type="text" name="username" class="m-form-input" minlength="3" required />
+                    <span class="m-form-label">Имя</span>
+                    <svg class="form-icon">
+                        <use href="./images/icons.svg#form-name-icon"></use>
+                    </svg>
+                </label>
+                <label class="form-field">
+                    <input type="tel" name="user-tel" class="m-form-input" minlength="10" required />
+                    <span class="m-form-label">Телефон</span>
+                    <svg class="form-icon">
+                        <use href="./images/icons.svg#form-phone-icon"></use>
+                    </svg>
+                </label>
+                <label class="form-field">
+                    <input type="email" name="user-email" class="m-form-input" required />
+                    <span class="m-form-label">Почта</span>
+                    <svg class="form-icon">
+                        <use href="./images/icons.svg#form-mail-icon"></use>
+                    </svg>
+                </label>
+                <label class="form-field comment">
+                    <textarea name="comments" rows="6" placeholder="Введите текст" class="m-form-input comment"></textarea>
+                    <span class="m-form-label">Комментарий</span>
+                </label>
+                <label class="form-field-check">
+                    <input type="checkbox" name="user-agreement" class="m-form-check" required />
+                    <svg class="form-check-icon">
+                        <use href="./images/icons.svg#check-icon"></use>
+                    </svg>
+                    <span class="m-form-label-check">Соглашаюсь с рассылкой и принимаю&ensp;</span>
+                    <a href=" " class="agreement-linc">Условия договора</a>
+                </label>
+                <button type="submit" class="submit-form-button">Отправить</button>
+            </form>
+        </div>
+    </div>
     <script src="./js/modal.js"></script>
 </body>
 
