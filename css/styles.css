@@ -952,7 +952,7 @@ p {
 .m-form-check:checked + .form-check-icon {
   fill: var(--white-basis);
   background-color: var(--accent-brand);
-  border-color: transparent;
+  border: none;
   background-origin: border-box;
 }
 
