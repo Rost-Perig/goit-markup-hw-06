@@ -889,9 +889,8 @@ p {
 
 .form-icon {
   position: absolute;
-  bottom: 20px;
+  bottom: 11px;
   left: 12px;
-  transform: translateY(50%);
   fill: #212121;
   width: 18px;
   height: 18px;
