@@ -966,9 +966,12 @@ p {
   cursor: pointer;
 }
 
+.form-field-check:hover .m-form-label-check {
+  color: var(--accent-brand);
+}
+
 .form-field-check:hover .m-form-label-check,
 .form-field-check:focus-within .m-form-label-check {
-  color: var(--accent-brand);
   cursor: pointer;
 }
 
